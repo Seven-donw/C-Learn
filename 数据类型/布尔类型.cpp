@@ -5,7 +5,7 @@ using namespace std;
 //ture 代表真 值1
 //false 代表假 值0
 //占1个字节
-int main4()
+int main()
 {
 
 	bool flag = true;
