@@ -6,6 +6,7 @@ using namespace std;
 	语法： sizeof(数据类型/变量)
 */
 int main4()
+int main()
 {
 	//1、短整型 short (-32768~32767) (-2^15~2^15-1)
 	short number1 = 3276;
