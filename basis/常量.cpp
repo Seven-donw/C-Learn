@@ -3,7 +3,7 @@ using namespace std;
 //#define（宏常量)  #define 常量名 常量值
 #define Day 7 
 
-int main3()
+int main()
 {
 	cout << "一周有" << Day << "天" << endl;
 	
