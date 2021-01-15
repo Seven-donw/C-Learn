@@ -9,6 +9,8 @@ int main() {
     cout << "a-b=" << a-b << endl;
     cout << "a*b=" << a*b << endl;
     cout << "a/b=" << a/b << endl; //整数除法输出整数
+    cout << "a%b=" << a%b << endl;
+
     /*
         0不能作除数 否程序出错
     */
