@@ -12,6 +12,10 @@ int main() {
     /*
         0不能作除数 否程序出错
     */
+    double d1 = 0.54;
+    double d2 = 0.25;
+    cout << "d1/d2" << d1/d2 << endl;
+
 
     system("pause")
 
