@@ -45,13 +45,13 @@ int main() {
 
    cout << "分数:" << endl;
 
-   if (>600) {
+   if (scores > 600) {
        cout << "考上一本" << endl;
    }
-   else if (>500) {
+   else if (scores > 500) {
        cout << "考上二本" << endl;
    }
-   else if (>400) {
+   else if (scores > 400) {
        cout << "考上三本" << endl;
    }
    else {
