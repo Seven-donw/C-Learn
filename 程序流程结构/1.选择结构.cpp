@@ -32,6 +32,32 @@ int main() {
             cout << "可惜，下次继续努力" << endl;
     }
 
+    //3.多条件格式语句 语法：if(条件1){条件1满足执行的语句}else if (条件2){满足条件2执行的语句}...else{都不满足执行的语句}
+    /*
+        >600分 考上一本
+        >500分 考上二本
+        >400分 考上三本
+        <=400  未考上本科
+    */
+   int scores = 0;
+   cout << "请输入：" << endl;
+   cin >> scores;
+
+   cout << "分数:" << endl;
+
+   if (>600) {
+       cout << "考上一本" << endl;
+   }
+   else if (>500) {
+       cout << "考上二本" << endl;
+   }
+   else if (>400) {
+       cout << "考上三本" << endl;
+   }
+   else {
+       cout << "没考上本科" << endl;
+   }
+
     system("pause");
 
     return 0;
