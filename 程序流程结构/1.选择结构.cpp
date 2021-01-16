@@ -8,6 +8,7 @@ using namespace std;
 int main() {
 
     //1.单行格式if语句：  if(条件){条件满足执行的语句}
+    //if() 后不要加;
     int score = 0;
     cout << "请输入：" << endl;
     cin >> score;
