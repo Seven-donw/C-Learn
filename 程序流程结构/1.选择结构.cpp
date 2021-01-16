@@ -18,6 +18,20 @@ int main() {
         cout << "恭喜" << endl;
     }
 
+    //2.多行格式：if(条件) {条件} else {条件不能满足执行的语句}
+    int point = 0;
+    cout << "请输入:" << endl;
+    cin >> point;
+    
+    //cout << "分数" << endl;
+
+    if (point > 600) {
+        cout << "恭喜" << endl;
+    }
+    else {
+            cout << "可惜，下次继续努力" << endl;
+    }
+
     system("pause");
 
     return 0;
