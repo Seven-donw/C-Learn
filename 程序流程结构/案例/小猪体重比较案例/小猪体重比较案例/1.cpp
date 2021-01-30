@@ -4,30 +4,30 @@ using namespace std;
 int main() {
 
 	int a = 0;
-	cout << "请输入a(kg):" << endl;
+	cout << "Please Enter(kg):" << endl;
 	cin >> a;
 
 	int b = 0;
-	cout << "请输入b(kg):" << endl;
+	cout << "Please Enter(kg):" << endl;
 	cin >> b;
 
 	int c = 0;
-	cout << "请输入c(kg):" << endl;
+	cout << "Please Enter(kg):" << endl;
 	cin >> c;
 	if (a > b) {
 		if (a > c) {
-			cout << " a 最重" << endl;
+			cout << " a weighs the heaviest" << endl;
 		}
 		else if (a < b) {
-			cout << "b 最重" << endl;
+			cout << "b weighs the heaviest" << endl;
 		}
 	}
 	else if (a < b) {
 		if (b > c) {
-			cout << "b 最重" << endl;
+			cout << "b weighs the heaviest" << endl;
 		}
 		else if (c > b) {
-			cout << "c 最重" << endl;
+			cout << "c weighs the heaviest" << endl;
 		}
 	}
 	system("pause");
